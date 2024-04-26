@@ -1,0 +1,217 @@
+.hero {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 9%;
+}
+
+.hero ul {
+    width: 20%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    z-index: -1;
+}
+
+.hero ul li {
+    width: 300px;
+    display: flex;
+    height: 40px;
+    align-items: center;
+}
+
+.Slider {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.slider {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.controls {
+    display: flex;
+}
+
+.prev,
+.next {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.5;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-100%);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    border: none;
+    z-index: 1000;
+    background-color: #f2f4f7;
+    color: black;
+}
+
+.prev {
+    left: 520px;
+    z-index: 1;
+}
+
+.next {
+    right: 170px;
+    z-index: 1;
+}
+
+.slide {
+    width: 80%;
+    display: none;
+    animation: fade 1s ease-out;
+}
+
+.slide img {
+    border-radius: 10px;
+    width: 850px;
+    height: 380px;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+        transform: translateX(20%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+.bil{
+    width: 80%;
+}
+.bil h2{
+    font-size: 30px;
+    font-weight: 500;
+}
+.inputs{
+    display: grid;
+    grid-template-columns: max-content;
+    gap: 30px;
+}
+.inputs input{
+    width: 470px;
+    height: 50px;
+    background-color: rgba(245, 245, 245, 1);
+    border: none;
+    padding-left: 15px;
+    border-radius: 5px;
+}
+.inputs button{
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 5px; 
+    background-color: rgba(219, 68, 68, 1);
+    color: white;
+}
+.totalpr{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    width: 100%;
+    gap: 180px;
+}
+.info{
+    display: grid;
+}
+.info ul li img{
+    width: 55px;
+    height: 60px;
+}
+.info ul li{
+    display: flex;
+    width: 550px;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+}
+.info ul li div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 220px;
+    height: 100%;
+
+}
+.info ul li button{
+    width: 60px;
+    border: none;
+    background-color: rgba(219, 68, 68, 1);
+    color: white;
+    font-size: 13px;
+    border-radius: 5px;
+    height: 40px;
+}
+.prss{
+    display: flex;
+    width: 150px;
+}
+.info ul{
+    display: grid;
+    grid-template-columns: max-content;
+    gap: 20px;
+}
+.totalsum{
+    width: 100%;
+    
+}
+.totalsum li{
+    display: flex;
+    text-align: center;
+    gap: 80%;
+}
+.fram{
+    display: flex;
+    width: 100%;
+    gap: 60%;
+}
+.cupon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 40px;
+}
+.cupon input{
+    width: 300px;
+    height: 50px;
+    padding-left: 15px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 1);
+}
+.cupon button{
+    width: 200px;
+    height: 50px;
+    border: none;
+    background-color: rgba(219, 68, 68, 1);
+    color: white;
+    border-radius: 5px;
+}
+.order{
+    width: 150px;
+    height: 50px;
+    border: none;
+    background-color: rgba(219, 68, 68, 1);
+    color: white;
+    border-radius: 5px;
+}
+.btnor{
+    width: 100%;
+}

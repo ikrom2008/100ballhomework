@@ -1,0 +1,370 @@
+.main{
+    width: 80%;
+}
+.thismonth{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.thismonth h5{
+    width: 100%;
+    color: rgba(219, 68, 68, 1);
+    font-size: 16px;
+    font-weight: 600;
+}
+.thismonth .newdiv{
+    display: flex;
+    width: 100%;
+    gap: 60%;
+}
+.thismonth .newdiv button{
+    width: 120px;
+    height: 50px;
+    background-color: rgba(219, 68, 68, 1);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.thismonth .newdiv h2{
+    font-size: 36px;
+    font-weight: 600;
+}
+.lists{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+}
+.list{
+    width: 23.7%;
+    height: 300px;
+    border: 3px solid rgba(246, 247, 248, 1);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+    gap: 10px;
+    border-radius: 10px;
+}
+.likebtn button{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border: none;
+    border-radius: 50%;
+    font-size: 30px;
+}
+.likeact{
+    display: flex;
+    width: 80%;
+    height: 65%;
+    justify-content: end;
+}
+.likebtn{
+    position: absolute;
+    width: 0px;
+    display: none;
+    flex-direction: column;
+}
+.list:hover{
+    transition: 0.5s;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.list:hover{
+    .likebtn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.list h5{
+    color: rgba(34, 50, 99, 1);
+    font-weight: 700;
+    font-size: 16px;
+}
+.list img{
+    width: 100%;
+    height: 100%;
+    min-height: 65%;
+} 
+.list img:hover{
+    margin-right: 15%;
+    width: 110%;
+    height: 105%;
+    transition: 0.3s;
+}
+.price{
+    display: flex;
+    width: 80%;
+    height: 35%;
+    justify-content: center;
+    align-items: end;
+}
+.price p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: red;
+    font-size: 14px;
+    font-weight: 700;
+}
+.price p .spanprice{
+    color: rgba(219, 68, 68, 1);
+    font-size: 16px;
+    font-weight: 700;    
+}
+.price button{
+    width: 55px;
+    height: 23px;
+    border: none;
+    background-color: aquamarine;
+    border-radius: 5px;
+}
+.price p .spancount{
+    font-size: 13px;
+    color: rgba(144, 152, 177, 1);
+    text-decoration: line-through;
+    font-weight: 400;
+}
+.musicplay{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+.musicplay h6{
+    color: rgba(0, 255, 102, 1);
+    width: 100%;
+    font-weight: 600;
+    font-size: 16px;
+}
+.musicplay h3{
+    color: white;
+    width: 100%;
+    font-size: 48px;
+    font-weight: 600;
+}
+.timer{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 50px;
+    padding-top: 50px;
+}
+.btn{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    gap: 150px;
+}
+.btn button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 45px;
+    background-color: rgba(0, 255, 102, 1);
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+.times{
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}
+.alltime{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+}
+.allpr{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+.allpr h6{
+    width: 100%;
+    color: rgba(219, 68, 68, 1);
+    font-size: 16px;
+    font-weight: 600;
+}
+.title{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 62%;
+}
+.title h3{
+    font-size: 36px;
+    font-weight: 600;
+}
+.title div{
+    display: flex;
+    gap: 10px;
+}
+.title button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    font-size: 18px;
+}
+.button{
+    width: 180px;
+    height: 40px;
+    background-color: rgba(219, 68, 68, 1);
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+.items li{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+}
+.item img{
+    width: 55px;
+    height: 55px;
+}
+.itemname{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 25%;
+}
+.itemname h4{
+    font-size: 18px;
+}
+.item p{
+    width: 25%;
+    font-weight: 600;
+    text-align: center;
+}
+.quantity{
+    width: 70px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    border: 1px solid;
+}
+.btns{
+    display: flex;
+    flex-direction: column;
+}
+.btns button{
+    width: 20px;
+    height: 50%;
+    border: none;
+    background-color: white;
+}
+.item h5{
+    width: 15%;
+    text-align: center;
+}
+.items{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.btnnn{
+    width: 6%;
+}
+.btnnn button{
+    width: 25px;
+}
+.item h5{
+    font-size: 17px;
+    font-weight: 700;
+}
+.cart_page{
+    width: 70%;
+}
+.return{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 75%;
+}
+.return button{
+    width: 150px;
+    height: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    font-weight: 500;
+}
+.cartend{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 30%;
+}
+.app{
+    display: flex;
+    gap: 10px;
+}
+.app input{
+    width: 250px;
+    height: 40px;
+    padding-left: 15px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 1);
+}
+.app button{
+    width: 120px;
+    border: none;
+    background-color: rgba(219, 68, 68, 1);
+    color: white;
+    font-size: 13px;
+    border-radius: 5px;
+    height: 40px;
+}
+.total{
+    width: 35%;
+    border: 1px solid;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 5px;
+}
+.total h4{
+    width: 100%;
+}
+.total li{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 65%;
+}
+.total button{
+    background-color: rgba(219, 68, 68, 1);
+    color: white;
+    border: none;
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+}
